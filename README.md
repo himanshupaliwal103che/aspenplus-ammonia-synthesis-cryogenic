@@ -16,5 +16,5 @@ This project models and simulates the synthesis of ammonia (NH₃) from a mixtur
 - Simulation of cryogenic flash separation and recycle loop  
 - Integration of reactor, flash, membrane, and compressor units
 - ## Results
-- Product ammonia stream meets purity constraint of **99.8%**  
-- Analysis of different property methods and their accuracy in predicting ammonia production 
+- Analysis of different property methods and their accuracy in predicting ammonia production.Use Peng–Robinson EOS as the primary property method. 
+- Product ammonia stream meets purity constraint of **99.8%** 
