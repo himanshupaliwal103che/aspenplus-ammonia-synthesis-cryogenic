@@ -16,5 +16,5 @@ This project models and simulates the synthesis of ammonia (NH₃) from a mixtur
 - Simulation of cryogenic flash separation and recycle loop  
 - Integration of reactor, flash, membrane, and compressor units
 - ## Results
-- Analysis of different property methods and their accuracy in predicting ammonia production.Use Peng–Robinson EOS as the primary property method. 
-- Product ammonia stream meets purity constraint of **99.8%** 
+- Analysis of different property methods and their accuracy in predicting ammonia production.Use Peng–Robinson EOS as the primary property method for accurate high-pressure/cryogenic VLE.
+- Product ammonia stream meets purity constraint of **99.8%** but the molar flow rate of liquid ammonia falls from 2386.8 kmol/hr to 2123.12.63 kmol/hr when we optimize the reactor temprature and purity constraint of **99.79%**when we optimize the flash and here rate falls to 2124.63 kmol/hr which is **~11%** drop in flow rate of liquid ammonia.
